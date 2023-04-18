@@ -1,0 +1,20 @@
+.transaction {
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    padding: 1.5rem;
+}
+
+.transaction .details-area {
+    position: relative;
+    padding-bottom: 2rem;
+}
+
+.transaction .details-area::after {
+    content: '';
+    border-bottom: 1px solid #aaa;
+    position: absolute;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+}

@@ -1,0 +1,14 @@
+.transactionStatus {
+    display: inline-flex;
+    align-items: center;
+    justify-content: start;
+    gap: .5rem;
+}
+
+.transactionStatus.open svg {
+    color: red;
+}
+
+.transactionStatus.closed svg {
+    color: green;
+}
