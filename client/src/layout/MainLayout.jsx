@@ -17,7 +17,7 @@ export const MainLayout = ({ title = "Title" }) => {
             <Menu isOpen={isOpen} closeMenu={() => setIsOpen(false)} />
 
             <div className="main-container">
-                <div className="container px-5">
+                <div className="container px-4">
                     <p className="display-6">{title}</p>
                     <Outlet />
                 </div>
